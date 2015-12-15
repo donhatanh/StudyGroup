@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Study Group</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Navigation Drawer Opened</string>
+    <string name="drawer_close">Navigation Drawer Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Search</item>
+        <item>Your Group</item>
+        <item>Create Group</item>
+        <item>Notifications</item>
+        <item>Support</item>
+        <item>Rate Now!</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_search</item>
+        <item>@drawable/ic_groups</item>
+        <item>@drawable/ic_cgroups</item>
+        <item>@drawable/ic_notify</item>
+        <item>@drawable/ic_support</item>
+        <item>@drawable/ic_rate</item>
+    </array>
+
+    <!-- Strings from Shrey -->
+        <string name="enter_crs">Enter the details for your Group</string>
+        <string name="title_activity_create__goup">Create Group</string>
+        <string name="Crs_Name">Enter Course Name in the form: \'CSE 3461\'</string>
+        <string name="Location">Location</string>
+        <string name="Max_Members">Maximum Members :</string>
+        <string name="Description">Description Of the Session:</string>
+        <string name="Max_Chars">Maximum 100 characters</string>
+        <string name="Max_Box" />
+        <string name="create_group">Create!</string>
+        <string name="title_activity_log__me__in">Log_Me_IN</string>
+        <string name="title_activity_notification">Notification</string>
+        <string name="create_title">Create your Group</string>
+        <string name="one">1. </string>
+        <string name="two">2. </string>
+        <string name="three">3. </string>
+        <string name="four">4. </string>
+        <string name="title_activity_search__course">Search for a Study Group</string>
+        <string name="search_dis">To search for groups, enter the course code below in the form: \'XXX XXXX\' Example: \'CSE 3461\'</string>
+        <string name="course_code">XXX</string>
+        <string name="course_name">XXXX</string>
+        <string name="search_btn">Search!</string>
+        <string name="CREATE_ACCOUNT">Create an Account</string>
+      <string name="SIGN_UP">Sign Up</string>
+    <string name="SIGN_UP_LATER">Maybe Later</string>
+    <string name="USER_NAME_PLACEHOLDER">User Name</string>
+    <string name="EMAIL_PLACE_HOLDER">Email Address</string>
+     <string name="FORGOT_PASSWORD">Forgot Password</string>
+         <string name="PASSWORD">Password</string>
+     <string name="LOGIN">Log In</string>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="facebook_app_id">505287922945557</string>
+    <string name="title_activity_support">Support</string>
+    <string name="About_US:">About Us: This App is developed by York University Undergrad Students as part of a Project.</string>
+    <string name="Know_more_York"> To know more about York University please follow the link below: </string>
+</resources>

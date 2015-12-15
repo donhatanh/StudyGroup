@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="vertical"
+    android:windowSoftInputMode="adjustPan" >
+
+    <TextView
+        android:id="@+id/create_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/create_title"
+        android:textAllCaps="true"
+        android:textColor="@color/maroon"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/One"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_title"
+        android:layout_marginTop="20dp"
+        android:text="@string/one"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Crs_Name_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_title"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/One"
+        android:text="@string/Crs_Name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/crs_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Crs_Name_title"
+        android:layout_marginLeft="110dip"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/course_code"
+        android:maxLength="3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/crs_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Crs_Name_title"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/crs_code"
+        android:gravity="center_horizontal"
+        android:hint="@string/course_name"
+        android:maxLength="4"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/crs_code"
+        android:layout_marginTop="20dp"
+        android:text="@string/two"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/crs_code"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@id/Two"
+        android:hint="@string/Location"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Location"
+        android:layout_marginTop="30dp"
+        android:text="@string/three"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Location"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="30dip"
+        android:layout_toRightOf="@id/Three"
+        android:text="@string/Description"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Max_Chars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Description"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/Max_Chars"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:minLines="2"
+        android:paddingBottom="10dp"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/Four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Max_Chars"
+        android:layout_marginTop="30dp"
+        android:text="@string/four"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Max_Members"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Max_Chars"
+        android:layout_marginTop="30dip"
+        android:layout_toRightOf="@+id/Four"
+        android:text="@string/Max_Members"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Max_Box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Max_Chars"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="25dip"
+        android:layout_toRightOf="@id/Max_Members"
+        android:gravity="center_horizontal"
+        android:hint="@string/Max_Box"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Create_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Max_Box"
+        android:layout_marginTop="50dip"
+        android:gravity="center"
+        android:onClick="CreateGoup"
+        android:text="@string/create_group" />
+
+</RelativeLayout>
